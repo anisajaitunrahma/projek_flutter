@@ -1,4 +1,5 @@
 //ini wajib
+import 'package:fluter/Bottonnav.dart';
 import 'package:flutter/material.dart';
 import 'home.dart';
 
@@ -13,6 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MyHome());
+    return MaterialApp(home: BottonNav());
   }
 }
